@@ -12,8 +12,19 @@ class resPartner(models.Model):
     code_plus = fields.Char(string="Code plus")#Codigo Plus
     purchasing_manager = fields.Many2one('res.partner', string="Purchasing manager")#Responsable de compras
 
+    l10n_mx_edi_colony = fields.Many2one('colony.catalogues', string="Nombre de Colonia")
+
 class productTemplate(models.Model):
     _inherit = 'product.template'
 
     product_level = fields.Char(string="Product level") #Nivel producto
     physical_Inventory = fields.Integer(string="Physical Inventory ") #Inv. Fisico  #
+    line = fields.Char(string="Line")  # Línea
+    #line = fields.Char(compute="generaLinea", inverse="generaLinea", string="Line")#Línea
+
+    #def generaLinea(self):
+    #    for record in self:
+    #        if record.categ_id:
+    #            record.line = record.categ_id.name
+    #        else:
+    #            record.line = ""

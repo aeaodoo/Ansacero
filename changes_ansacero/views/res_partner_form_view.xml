@@ -12,6 +12,9 @@
         <field name="category_id" position="after">
           <field name="purchasing_manager" />
         </field>
+        <!--<field name="l10n_mx_edi_colony" position="replace">
+          <field name="l10n_mx_edi_colony" domain="[('state_id', '=', state_id)]"/>
+        </field>-->
       </field>
     </record>
   </data>
