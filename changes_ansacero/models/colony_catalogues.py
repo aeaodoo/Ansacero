@@ -6,7 +6,7 @@ class ColonyCatalogues(models.Model):
     _name = "colony.catalogues"
     _description = "colony.catalogues"
 
-    colony_name = fields.Char(string="Colony name")#Nombre de colonia
+    name = fields.Char(string="Colony name")#Nombre de colonia
     country_id = fields.Many2one("res.country", string="Country")
     state_id = fields.Many2one("res.country.state", string="State")
     city_id = fields.Many2one("res.city", string="city")

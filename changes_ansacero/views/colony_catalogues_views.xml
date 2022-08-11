@@ -6,7 +6,7 @@
             <field name="model">colony.catalogues</field>
             <field name="arch" type="xml">
                 <tree string="Colony catalogues">
-                    <field name="colony_name"/>
+                    <field name="name"/>
                     <field name="zip"/>
                     <field name="city_id"/>
                     <field name="state_id"/>
@@ -24,7 +24,7 @@
                     <sheet>
                         <group>
                             <group>
-                                <field name="colony_name"/>
+                                <field name="name"/>
                                 <field name="zip"/>
                                 <field name="city_id"/>
                             </group>
