@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:12+0000\n"
-"PO-Revision-Date: 2022-08-09 22:12+0000\n"
+"POT-Creation-Date: 2022-08-11 21:52+0000\n"
+"PO-Revision-Date: 2022-08-11 21:52+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -44,9 +44,9 @@ msgid "Colony catalogues"
 msgstr "Catálogos de colonias"
 
 #. module: changes_ansacero
-#: model:ir.model.fields,field_description:changes_ansacero.field_colony_catalogues__colony_name
+#: model:ir.model.fields,field_description:changes_ansacero.field_colony_catalogues__name
 msgid "Colony name"
-msgstr ""
+msgstr "Nombre de colonia"
 
 #. module: changes_ansacero
 #: model:ir.model,name:changes_ansacero.model_res_partner
@@ -56,7 +56,7 @@ msgstr "Contacto"
 #. module: changes_ansacero
 #: model:ir.model.fields,field_description:changes_ansacero.field_colony_catalogues__country_id
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #. module: changes_ansacero
 #: model:ir.model.fields,field_description:changes_ansacero.field_colony_catalogues__create_uid
@@ -111,6 +111,12 @@ msgid "Line"
 msgstr "Línea"
 
 #. module: changes_ansacero
+#: model:ir.model.fields,field_description:changes_ansacero.field_res_partner__l10n_mx_edi_colony
+#: model:ir.model.fields,field_description:changes_ansacero.field_res_users__l10n_mx_edi_colony
+msgid "Nombre de Colonia"
+msgstr ""
+
+#. module: changes_ansacero
 #: model:ir.model.fields.selection,name:changes_ansacero.selection__res_partner__How_do_you_know_us__pasó_por_una_sucursal
 msgid "Pasó por una Sucursal"
 msgstr ""
@@ -140,7 +146,7 @@ msgstr "Nivel de producto"
 #. module: changes_ansacero
 #: model:ir.model.fields.selection,name:changes_ansacero.selection__res_partner__How_do_you_know_us__publicidad_de_camionetas
 msgid "Publicidad de Camionetas"
-msgstr ""
+msgstr "Nivel de producto"
 
 #. module: changes_ansacero
 #: model:ir.model.fields,field_description:changes_ansacero.field_res_partner__purchasing_manager
@@ -161,12 +167,12 @@ msgstr ""
 #. module: changes_ansacero
 #: model:ir.model.fields,field_description:changes_ansacero.field_colony_catalogues__state_id
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. module: changes_ansacero
 #: model:ir.model.fields,field_description:changes_ansacero.field_colony_catalogues__city_id
 msgid "city"
-msgstr ""
+msgstr "Ciudad"
 
 #. module: changes_ansacero
 #: model:ir.model,name:changes_ansacero.model_colony_catalogues
