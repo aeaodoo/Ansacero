@@ -28,3 +28,8 @@ class productTemplate(models.Model):
     #            record.line = record.categ_id.name
     #        else:
     #            record.line = ""
+
+class resCompany(models.Model):
+    _inherit = 'res.company'
+
+    l10n_mx_edi_colony = fields.Many2one('colony.catalogues', string="Nombre de Colonia")
