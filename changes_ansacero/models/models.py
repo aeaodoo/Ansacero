@@ -32,4 +32,4 @@ class productTemplate(models.Model):
 class resCompany(models.Model):
     _inherit = 'res.company'
 
-    l10n_mx_edi_colony = fields.Many2one('colony.catalogues', string="Nombre de Colonia")
+    #l10n_mx_edi_colony = fields.Many2one('colony.catalogues', string="Nombre de Colonia")
